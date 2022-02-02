@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.half-width {
+    width: 40%;
+    margin-top: 2%;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.banner-title h1 {
+    font-size: 50px;
+}
+
+.name-title {
+    color: orange;
+}
+
+.about-me {
+    color: dimgray;
+
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 40px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.bg{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exparience div{
+    box-shadow: 5px 7px 40px grey;
+    margin: 20px;
+    
+}
+#full-stack{
+    padding: 30px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg
+, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    padding: 30px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(
+        180deg
+        , blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+}
